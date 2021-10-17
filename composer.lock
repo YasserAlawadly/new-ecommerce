@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f92dca6b0b8ca69708e45a35a49e4caf",
+    "content-hash": "63896aac33d9d7cc1675dcdd2b504164",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -1577,6 +1577,70 @@
                 }
             ],
             "time": "2021-01-18T20:58:21+00:00"
+        },
+        {
+            "name": "mindscms/entrust",
+            "version": "v2.5.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mindscms/entrust.git",
+                "reference": "eefa0fcc4a2ac2f94ad2857ef15c467c50a5462c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mindscms/entrust/zipball/eefa0fcc4a2ac2f94ad2857ef15c467c50a5462c",
+                "reference": "eefa0fcc4a2ac2f94ad2857ef15c467c50a5462c",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/cache": ">=6.0",
+                "illuminate/console": ">=6.0",
+                "illuminate/support": ">=6.0",
+                "php": ">=7.2"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Mindscms\\Entrust\\EntrustServiceProvider"
+                    ],
+                    "aliases": {
+                        "Entrust": "Mindscms\\Entrust\\EntrustFacade"
+                    }
+                }
+            },
+            "autoload": {
+                "classmap": [
+                    "src/commands"
+                ],
+                "psr-4": {
+                    "Mindscms\\Entrust\\": "src/Entrust/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Sami Mansour",
+                    "email": "mindscms@gmail.com"
+                }
+            ],
+            "description": "This package provides a flexible way to add Role-based Permissions to Laravel Customized by Sami Mansour",
+            "keywords": [
+                "acl",
+                "auth",
+                "illuminate",
+                "laravel",
+                "permission",
+                "roles"
+            ],
+            "support": {
+                "issues": "https://github.com/mindscms/entrust/issues",
+                "source": "https://github.com/mindscms/entrust/tree/v2.5.2"
+            },
+            "time": "2021-02-25T23:06:22+00:00"
         },
         {
             "name": "monolog/monolog",

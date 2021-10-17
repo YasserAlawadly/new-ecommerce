@@ -330,6 +330,7 @@
 </div>
 
 @endsection
+
 @section('script')
     <!-- Page level plugins -->
     <script src="{{ asset('backend/vendor/chart.js/Chart.min.js') }}"></script>
